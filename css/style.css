@@ -1,0 +1,91 @@
+:root {
+  --title-color: #1a6ea4;
+  --body-padding: 16px;
+}
+
+body {
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
+}
+
+h1 {
+  text-align: center;
+  color: var(--title-color);
+}
+
+.JobTitle {
+  text-align: center;
+  color: var(--title-color);
+}
+
+h2 {
+  color: var(--title-color);
+}
+
+.AboutMePlaceHolder {
+  width: 250px;
+}
+
+.Skills {
+  text-decoration: underline;
+  color: #52aaf5;
+}
+
+h3 {
+  background: #def0fc;
+}
+
+.ExperienceTimelineTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ExperienceTimelineTable,
+.ExperienceTimelineTable th,
+.ExperienceTimelineTable td {
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ExperienceTimelineTable thead {
+  background-color: #1c6ea4;
+  color: white;
+}
+
+.ExperienceTimelineTable tbody tr td img {
+  width: 100px;
+}
+
+.ContactMeDiv {
+  border: 1px solid black;
+  padding: 10px;
+  position: relative;
+}
+
+.ContactMeDiv .ContactMeDivTitle {
+  padding-top: -30px;
+  background-color: white;
+  color: #5d799c;
+  position: absolute;
+  top: -27px;
+}
+
+.ContactMeDiv .PersonaleInfoTable {
+  width: 100%;
+}
+
+.ContactMeDiv .ProjectDetailsTable {
+  width: 100%;
+}
+
+#sendMessageButton {
+  background-color: blue;
+  color: white;
+}
+
+#clearFormButton {
+  background-color: red;
+  color: white;
+}
